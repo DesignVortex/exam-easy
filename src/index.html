@@ -3,9 +3,470 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Welcome to exam easy</h1>
+  <body class="font-ee">
+    <div id="main-div" class="bg-[url('assets/images/top-bg.png')] bg-cover">
+      <!-- <img src="" alt="" /> -->
+      <!-- Navigation  -->
+      <div class="">
+        <nav
+          id="navbar"
+          class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"
+        >
+          <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px]">
+            <div class="flex justify-between items-center h-20">
+              <div
+                class="flex-shrink-0 w-[120px] rounded-lg flex items-center justify-center"
+              >
+                <a href="./index.html"
+                  ><img
+                    src="./assets/images/exam-easy-logo.png"
+                    alt="ExamEasy Logo"
+                /></a>
+              </div>
+
+              <div class="hidden md:flex items-center space-x-8">
+                <a
+                  href="./how-it-works.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >How It Works</a
+                >
+                <a
+                  href="./Samples.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Samples</a
+                >
+                <a
+                  href="./pricing.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Pricing</a
+                >
+                <a
+                  href="./support.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Support</a
+                >
+
+                <a
+                  href="https://app.teambrief.ai/login"
+                  class="bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-2 rounded-[8px] text-sm font-medium transition-colors"
+                >
+                  Log In
+                </a>
+              </div>
+
+              <div class="md:hidden flex items-center">
+                <button
+                  id="mobile-menu-button"
+                  class="inline-flex items-center justify-center p-2 rounded-md nav-text text-tb-900 hover:text-gray-300 focus:outline-none"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <svg
+                    id="icon-open"
+                    class="block h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16m-7 6h7"
+                    />
+                  </svg>
+                  <svg
+                    id="icon-close"
+                    class="hidden h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-white shadow-xl"
+          >
+            <div class="px-5 pt-5 pb-8 space-y-4">
+              <a
+                href="./how-it-works.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >How It Works</a
+              >
+              <a
+                href="./Samples.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Samples</a
+              >
+              <a
+                href="./pricing.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Pricing</a
+              >
+              <a
+                href="./support.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Support</a
+              >
+
+              <hr class="border-gray-200" />
+
+              <a
+                href="https://app.teambrief.ai/login"
+                class="block w-full text-center bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-3 rounded-[8px] text-lg font-medium transition-colors"
+                target="_blank"
+              >
+                Log In
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navigation  end-->
+
+      <!-- hero section -->
+      <div
+        class="px-[25px] sm:px-[50px] md:px-[50px] lg:px-[100px] mt-[80px] py-[50px] lg:pt-[100px] lg:pb-[50px]"
+      >
+        <div class="text-center">
+          <h1
+            class="font-extrabold text-ee-900 text-[32px] md:text-[40px] lg:text-[48px] xl:text-[48px] leading-[135%]"
+          >
+            Create CBSE Exam Papers in Minutes,<span class="text-ee-500">
+              Not Days</span
+            >
+          </h1>
+          <p
+            class="font-normal text-ee-800 text-[18px] md:text-[16px] lg:text-[18px] xl:text-[24px] leading-[24px] md:leading-[24px] lg:leading-[28px] xl:leading-[36px] mt-[16px] xl:mt-[40px] md:px-[50px] lg:px-[50px] xl:px-[125px]"
+          >
+             ExamEasy helps teachers instantly generate high-quality question
+            papers, worksheets, and notes using AI, aligned with CBSE standards.
+          </p>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row sm:justify-center gap-[20px] items-center mt-[16px] sm:mt-[20px] md:mt-[40px] lg:mt-[48px]"
+        >
+          <a href="https://app.teambrief.ai/signup" target="_blank"
+            ><button
+              class="px-3 py-2 bg-ee-primary-1 text-[18px] rounded-[8px] text-white hover:cursor-pointer"
+            >
+              Contact Us To Get Started
+            </button></a
+          >
+          <a href="https://www.teambrief.ai/how-it-works.html"
+            ><button
+              class="px-3 py-2 text-[18px] rounded-[8px] bg-ee-100 hover:cursor-pointer"
+            >
+              View Sample Papers
+            </button></a
+          >
+        </div>
+      </div>
+
+      <!-- hero section end -->
+      <!-- card start  -->
+      <div class="flex justify-center gap-[20px]">
+        <div class="w-[25%] -rotate-6">
+          <img src="./assets/images/card-1.png" alt="" />
+        </div>
+        <div class="w-[25%]">
+          <img src="./assets/images/card-2.png" alt="" />
+        </div>
+
+        <div class="w-[25%] rotate-6">
+          <img src="./assets/images/card-3.png" alt="" />
+        </div>
+      </div>
+      <!-- card end  -->
+      <!-- strip start  -->
+      <div class="bg-ee-primary-2 py-[20px] relative z-20 mt-[-50px]">
+        <div class="flex gap-[32px] justify-center text-white">
+          <p class="text-[24px] font-semibold">
+            <i class="ri-shining-2-fill mr-[10px]"></i>CBSE-Verified
+          </p>
+          <p class="text-[24px] font-semibold">
+            <i class="ri-shining-2-fill mr-[10px]"></i>Unlimited Exam Generation
+          </p>
+          <p class="text-[24px] font-semibold">
+            <i class="ri-shining-2-fill mr-[10px]"></i>AI-Powered
+          </p>
+          <p class="text-[24px] font-semibold">
+            <i class="ri-shining-2-fill mr-[10px]"></i>No Repeated Questions
+          </p>
+        </div>
+      </div>
+      <!-- strip start  -->
+    </div>
+    <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] py-[100px]">
+      <div class="text-center flex flex-col gap-[24px]">
+        <h2
+          class="font-extrabold text-ee-900 text-[32px] md:text-[40px] lg:text-[40px] xl:text-[40px] leading-[135%]"
+        >
+          Teaching is demanding.
+          <span class="text-ee-primary-1">Exam creation shouldn’t be.</span>
+        </h2>
+        <p class="font-normal text-ee-800 text-[20px] px-[200px]">
+          Teachers today spend hours preparing exam papers, worksheets, and
+          practice material, or pay ₹1,000–₹1,500 per paper to outsource it.
+        </p>
+        <p class="font-semibold text-ee-primary-1 text-[20px]">
+          ExamEasy removes this burden completely.
+        </p>
+      </div>
+    </div>
+
+    <!-- key benifits start  -->
+    <div
+      class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] bg-[url('assets/images/key-benefit-bg.png')] bg-cover"
+    >
+      <div>
+        <h2 class="font-extrabold text-ee-900 text-[40px]">Key Benefits</h2>
+      </div>
+      <div id="row-1" class="mt-[48px] flex gap-[20px]">
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/hour-glass.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              Save Tremendous Time
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+              Generate complete exam papers, worksheets, or notes in minutes
+              instead of hours.
+            </p>
+          </div>
+        </div>
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/check-double-line.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              Top-Notch Question Quality
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+              Powered by world-class AI technology to ensure clarity,
+              correctness, and academic depth.
+            </p>
+          </div>
+        </div>
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/rupee-circle.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">Save Money</h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+              Eliminate outsourcing costs with unlimited exam creation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="row-2" class="mt-[48px] flex gap-[20px]">
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/loop-right.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              Always Unique Questions
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+               Every paper is freshly generated. No repetition across exams.
+            </p>
+          </div>
+        </div>
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/pdf-format.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              Fully Customizable Format
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+              Control chapters, marks, difficulty levels, and question types
+              with ease.
+            </p>
+          </div>
+        </div>
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/infinity-line.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              Unlimited Generation (Basic Plan)
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+              Create as many exams as you need, no daily or monthly limits.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="row-3" class="mt-[48px] flex gap-[20px]">
+        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
+          <div class="w-[100px]">
+            <img src="./assets/images/shield-check-line.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[8px]">
+            <h2 class="font-bold text-ee-900 text-[24px]">
+              100% CBSE Verified Standard
+            </h2>
+            <p class="font-medium text-ee-700 text-[16px]">
+               All content strictly follows CBSE syllabus and exam patterns.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- key benifits end  -->
+    <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] py-[100px]">
+      <div class="flex gap-[20px] text-white">
+        <div
+          class="w-2/4 bg-ee-primary-2 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
+        >
+          <h3 class="font-medium text-[24px]">Available Now</h3>
+          <p class="font-normal text-[20px]">
+            <i class="ri-checkbox-circle-line mr-[8px]"></i>Class 10 –
+            Mathematics (CBSE)
+          </p>
+        </div>
+        <div
+          class="w-3/4 bg-ee-primary-1 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
+        >
+          <h3 class="font-medium text-[24px]">Coming Soon</h3>
+          <div class="flex gap-[16px]">
+            <p class="font-normal text-[20px]">
+              <i class="ri-indeterminate-circle-line mr-[8px]"></i>Science
+            </p>
+            <p class="font-normal text-[20px]">
+              <i class="ri-indeterminate-circle-line mr-[8px]"></i>English
+            </p>
+            <p class="font-normal text-[20px]">
+              <i class="ri-indeterminate-circle-line mr-[8px]"></i>Other
+              Subjects
+            </p>
+            <p class="font-normal text-[20px]">
+              <i class="ri-indeterminate-circle-line mr-[8px]"></i>More Classes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials starts  -->
+    <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px]">
+      <div>
+        <h2 class="font-extrabold text-ee-900 text-[40px]">
+          Trusted by Teachers & Tutors
+        </h2>
+      </div>
+      <div class="mt-[48px] flex gap-[20px]">
+        <div
+          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+        >
+          <p class="font-normal text-ee-800 text-[20px]">
+            “ExamEasy has reduced my exam preparation time drastically. The
+            quality is excellent and matches CBSE expectations perfectly.”
+          </p>
+          <p class="font-semibold text-ee-800 text-[20px]">
+            — CBSE Mathematics Teacher
+          </p>
+        </div>
+        <div
+          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+        >
+          <p class="font-normal text-ee-800 text-[20px]">
+            “I used to outsource exam papers for ₹1,200 each. Now I generate
+            unlimited papers myself.”
+          </p>
+          <p class="font-semibold text-ee-800 text-[20px]">
+            — Private Tutor, Class 10
+          </p>
+        </div>
+        <div
+          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+        >
+          <p class="font-normal text-ee-800 text-[20px]">
+            “The customization options are exactly what teachers need. Very
+            intuitive.”
+          </p>
+          <p class="font-semibold text-ee-800 text-[20px]">— School Educator</p>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials end  -->
+    <!-- CTA section -->
+    <div
+      class="px-[25px] sm:px-[50px] lg:px-[100px] mt-[25px] sm:mt-[50px] md:mt-[100px]"
+    >
+      <div
+        class="mx-auto text-center bg-ee-primary-2 text-white px-5 py-5 rounded-[20px] xl:py-[50px] flex flex-col gap-[16px]"
+      >
+        <h3
+          class="font-title font-semibold text-[32px] sm:text-[32px] md:text-[32px] xl:text-[48px] leading-[40px] sm:leading-[40px] md:leading-[40px] mb-[8px] sm:mb-[8px] md:mb-[16px] lg:mb-[18px] xl:mb-[24px]"
+        >
+          Experience stress-free exam preparation.
+        </h3>
+        <p
+          class="font-body font-light text-[18px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[24px] sm:leading-[24px] md:leading-[24px] mb-[8px] sm:mb-[8px] md:mb-[8px] xl:mb-[8px] lg:px-10"
+        >
+          Join teachers who are saving time, money, and effort with ExamEasy.
+        </p>
+
+        <a href="#" target="_blank"
+          ><button
+            class="font-title bg-white text-ee-900 px-12 py-2 rounded-[8px] hover:cursor-pointer"
+          >
+            Get Started
+          </button></a
+        >
+      </div>
+    </div>
+    <!-- CTA section end-->
+    <!-- Footer section -->
+    <div
+      class="relative px-[25px] sm:px-[50px] lg:px-[100px] mt-[50px] md:mt-[75px] lg:mt-[100px] pb-[50px]"
+    >
+      <p
+        class="text-center font-extrabold text-tb-900 text-[60px] sm:text-[90px] md:text-[120px] lg:text-[150px] xl:text-[220px] opacity-[30%]"
+        aria-hidden="true"
+      >
+        exameasy
+      </p>
+      <div
+        class="text-center font-title font-normal flex flex-col lg:flex-row lg:justify-between gap-2 border-t border-b py-[10px]"
+      >
+        <div class="flex flex-col gap-2 lg:flex-row lg:justify-center lg:gap-8">
+          <a href="./support.html">Support</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./terms-and-conditions.html">Terms and conditions</a>
+          <!-- <a href="">Privacy policy</a> -->
+        </div>
+        <div><p>2026© ExamEasy</p></div>
+      </div>
+    </div>
+    <!-- Footer section end -->
+
+    <script src="script.js"></script>
   </body>
 </html>
