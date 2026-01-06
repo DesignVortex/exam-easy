@@ -62,3 +62,31 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileArrow.classList.toggle("rotate-180");
   });
 });
+
+// FAQs
+
+let currentOpen = null;
+
+function toggleFAQ(num) {
+  const answer = document.getElementById(`answer-${num}`);
+  const icon = document.getElementById(`icon-${num}`);
+
+  // Close previously opened FAQ if it's different from current
+  if (currentOpen !== null && currentOpen !== num) {
+    const prevAnswer = document.getElementById(`answer-${currentOpen}`);
+    const prevIcon = document.getElementById(`icon-${currentOpen}`);
+    prevAnswer.style.maxHeight = "0px";
+    prevIcon.style.transform = "rotate(0deg)";
+  }
+
+  // Toggle current FAQ
+  if (answer.style.maxHeight && answer.style.maxHeight !== "0px") {
+    answer.style.maxHeight = "0px";
+    icon.style.transform = "rotate(0deg)";
+    currentOpen = null;
+  } else {
+    answer.style.maxHeight = answer.scrollHeight + "px";
+    icon.style.transform = "rotate(180deg)";
+    currentOpen = num;
+  }
+}

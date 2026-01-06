@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="font-ee">
+    <div
+      id="main-div"
+      class="bg-bottom bg-[url('assets/images/top-bg.png')] bg-cover"
+    >
+      <!-- <img src="" alt="" /> -->
+      <!-- Navigation  -->
+      <div class="">
+        <nav
+          id="navbar"
+          class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"
+        >
+          <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px]">
+            <div class="flex justify-between items-center h-20">
+              <div
+                class="flex-shrink-0 w-[120px] rounded-lg flex items-center justify-center"
+              >
+                <a href="./index.html"
+                  ><img
+                    src="./assets/images/exam-easy-logo.png"
+                    alt="ExamEasy Logo"
+                /></a>
+              </div>
+
+              <div class="hidden md:flex items-center space-x-8">
+                <a
+                  href="./how-it-works.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >How It Works</a
+                >
+                <a
+                  href="./Samples.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Samples</a
+                >
+                <a
+                  href="./pricing.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Pricing</a
+                >
+                <a
+                  href="./support.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Support</a
+                >
+
+                <a
+                  href="https://app.teambrief.ai/login"
+                  class="bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-2 rounded-[8px] text-sm font-medium transition-colors"
+                >
+                  Log In
+                </a>
+              </div>
+
+              <div class="md:hidden flex items-center">
+                <button
+                  id="mobile-menu-button"
+                  class="inline-flex items-center justify-center p-2 rounded-md nav-text text-tb-900 hover:text-gray-300 focus:outline-none"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <svg
+                    id="icon-open"
+                    class="block h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16m-7 6h7"
+                    />
+                  </svg>
+                  <svg
+                    id="icon-close"
+                    class="hidden h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-white shadow-xl"
+          >
+            <div class="px-5 pt-5 pb-8 space-y-4">
+              <a
+                href="./how-it-works.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >How It Works</a
+              >
+              <a
+                href="./Samples.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Samples</a
+              >
+              <a
+                href="./pricing.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Pricing</a
+              >
+              <a
+                href="./support.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Support</a
+              >
+
+              <hr class="border-gray-200" />
+
+              <a
+                href="https://app.teambrief.ai/login"
+                class="block w-full text-center bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-3 rounded-[8px] text-lg font-medium transition-colors"
+                target="_blank"
+              >
+                Log In
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navigation  end-->
+
+      <!-- hero section -->
+      <div
+        class="px-[25px] sm:px-[50px] md:px-[50px] lg:px-[100px] mt-[80px] py-[50px] sm:pb-[100px] lg:pt-[100px] lg:pb-[50px]"
+      >
+        <div class="text-center">
+          <h1
+            class="font-extrabold text-ee-900 text-[32px] md:text-[40px] lg:text-[48px] xl:text-[48px] leading-[135%]"
+          >
+            We’re here to help.
+          </h1>
+          <p
+            class="font-normal text-ee-800 text-[18px] md:text-[16px] lg:text-[18px] xl:text-[24px] leading-[24px] md:leading-[24px] lg:leading-[28px] xl:leading-[36px] mt-[16px] xl:mt-[40px] md:px-[50px]"
+          >
+             If you have questions, need assistance, or want early access to
+            upcoming subjects, reach out to us.
+          </p>
+          <p
+            class="font-normal text-ee-800 text-[18px] md:text-[16px] lg:text-[18px] xl:text-[24px] leading-[24px] md:leading-[24px] lg:leading-[28px] xl:leading-[36px] mt-[16px] xl:mt-[40px] md:px-[50px] lg:px-[50px] xl:px-[125px] lg:pb-[150px]"
+          >
+             Email -
+            <a href="mailto:support@exameasy.ai" class="text-blue-700 underline"
+              >support@exameasy.ai</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- hero section end -->
+    </div>
+    <!-- FAQs section  -->
+    <div
+      class="px-[25px] sm:px-[50px] lg:px-[100px] mt-[50px] mb-[50px]"
+      id="faq"
+    >
+      <div class="bg-[#f5f5f5] py-10 px-10 rounded-[20px]">
+        <h2 class="font-extrabold text-ee-900 text-[24px] lg:text-[40px]">
+          FAQs
+        </h2>
+        <div class="space-y-4 font-body mt-[30px]">
+          <!-- FAQ Item 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          >
+            <button
+              onclick="toggleFAQ(1)"
+              class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-semibold text-gray-800 pr-4"
+                >Is ExamEasy CBSE-compliant?</span
+              >
+              <svg
+                id="icon-1"
+                class="w-5 h-5 text-indigo-600 transform transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer-1"
+              class="max-h-0 overflow-hidden transition-all duration-300"
+            >
+              <div class="px-6 pb-5 text-gray-600">
+                Yes. All questions follow CBSE syllabus and exam patterns.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          >
+            <button
+              onclick="toggleFAQ(2)"
+              class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-semibold text-gray-800 pr-4"
+                >Will questions repeat across papers?</span
+              >
+              <svg
+                id="icon-2"
+                class="w-5 h-5 text-indigo-600 transform transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer-2"
+              class="max-h-0 overflow-hidden transition-all duration-300"
+            >
+              <div class="px-6 pb-5 text-gray-600">
+                No. Every paper is uniquely generated.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          >
+            <button
+              onclick="toggleFAQ(3)"
+              class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-semibold text-gray-800 pr-4"
+                >Can I customize exam formats?</span
+              >
+              <svg
+                id="icon-3"
+                class="w-5 h-5 text-indigo-600 transform transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer-3"
+              class="max-h-0 overflow-hidden transition-all duration-300"
+            >
+              <div class="px-6 pb-5 text-gray-600">
+                Yes. Marks, chapters, difficulty, and question types are fully
+                customizable.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          >
+            <button
+              onclick="toggleFAQ(4)"
+              class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-semibold text-gray-800 pr-4"
+                >Is there a limit on exam generation?</span
+              >
+              <svg
+                id="icon-4"
+                class="w-5 h-5 text-indigo-600 transform transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer-4"
+              class="max-h-0 overflow-hidden transition-all duration-300"
+            >
+              <div class="px-6 pb-5 text-gray-600">
+                No. Basic plans allow unlimited generation.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+          >
+            <button
+              onclick="toggleFAQ(5)"
+              class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-semibold text-gray-800 pr-4"
+                >Which subjects are available?</span
+              >
+              <svg
+                id="icon-5"
+                class="w-5 h-5 text-indigo-600 transform transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer-5"
+              class="max-h-0 overflow-hidden transition-all duration-300"
+            >
+              <div class="px-6 pb-5 text-gray-600">
+                Currently Class 10 Mathematics. More subjects are coming soon.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQs section end -->
+    <!-- Footer section -->
+    <div
+      class="relative px-[25px] sm:px-[50px] lg:px-[100px] mt-[50px] md:mt-[75px] lg:mt-[100px] pb-[50px]"
+    >
+      <p
+        class="text-center font-extrabold text-tb-900 text-[60px] sm:text-[90px] md:text-[120px] lg:text-[150px] xl:text-[250px] opacity-[30%]"
+        aria-hidden="true"
+      >
+        exameasy
+      </p>
+      <div
+        class="text-center font-medium flex flex-col lg:flex-row lg:justify-between gap-2 border-t border-ee-600 py-[10px]"
+      >
+        <div
+          class="flex flex-col gap-2 lg:flex-row lg:justify-center lg:gap-8 text-ee-800"
+        >
+          <a href="./support.html">Support</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./terms-and-conditions.html">Terms and conditions</a>
+        </div>
+        <div><p>2026© ExamEasy</p></div>
+      </div>
+    </div>
+    <!-- Footer section end -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

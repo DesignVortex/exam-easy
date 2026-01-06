@@ -10,7 +10,10 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="font-ee">
-    <div id="main-div" class="bg-[url('assets/images/top-bg.png')] bg-cover">
+    <div
+      id="main-div"
+      class="bg-bottom bg-[url('assets/images/top-bg.png')] bg-cover"
+    >
       <!-- <img src="" alt="" /> -->
       <!-- Navigation  -->
       <div class="">
@@ -198,17 +201,19 @@
       <!-- card end  -->
       <!-- strip start  -->
       <div class="bg-ee-primary-2 py-[20px] relative z-20 mt-[-50px]">
-        <div class="flex gap-[32px] justify-center text-white">
-          <p class="text-[24px] font-semibold">
+        <div
+          class="flex flex-col lg:flex-row gap-[16px] lg:gap-[32px] items-center justify-center text-white"
+        >
+          <p class="text-[20px] lg:text-[20px] font-semibold">
             <i class="ri-shining-2-fill mr-[10px]"></i>CBSE-Verified
           </p>
-          <p class="text-[24px] font-semibold">
+          <p class="text-[20px] lg:text-[20px] font-semibold">
             <i class="ri-shining-2-fill mr-[10px]"></i>Unlimited Exam Generation
           </p>
-          <p class="text-[24px] font-semibold">
+          <p class="text-[20px] lg:text-[20px] font-semibold">
             <i class="ri-shining-2-fill mr-[10px]"></i>AI-Powered
           </p>
-          <p class="text-[24px] font-semibold">
+          <p class="text-[20px] lg:text-[20px] font-semibold">
             <i class="ri-shining-2-fill mr-[10px]"></i>No Repeated Questions
           </p>
         </div>
@@ -218,12 +223,12 @@
     <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] py-[100px]">
       <div class="text-center flex flex-col gap-[24px]">
         <h2
-          class="font-extrabold text-ee-900 text-[32px] md:text-[40px] lg:text-[40px] xl:text-[40px] leading-[135%]"
+          class="font-extrabold text-ee-900 text-[24px] md:text-[40px] lg:text-[40px] xl:text-[40px] leading-[135%] px-[0px]"
         >
           Teaching is demanding.
           <span class="text-ee-primary-1">Exam creation shouldn’t be.</span>
         </h2>
-        <p class="font-normal text-ee-800 text-[20px] px-[200px]">
+        <p class="font-normal text-ee-800 text-[20px] xl:px-[200px]">
           Teachers today spend hours preparing exam papers, worksheets, and
           practice material, or pay ₹1,000–₹1,500 per paper to outsource it.
         </p>
@@ -235,18 +240,22 @@
 
     <!-- key benifits start  -->
     <div
-      class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] bg-[url('assets/images/key-benefit-bg.png')] bg-cover"
+      class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] bg-bottom bg-[url('assets/images/key-benefit-bg.png')] bg-cover"
     >
       <div>
-        <h2 class="font-extrabold text-ee-900 text-[40px]">Key Benefits</h2>
+        <h2 class="font-extrabold text-ee-900 text-[24px] lg:text-[40px]">
+          Key Benefits
+        </h2>
       </div>
-      <div id="row-1" class="mt-[48px] flex gap-[20px]">
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/hour-glass.png" alt="" />
+      <div id="row-1" class="mt-[48px] flex flex-col lg:flex-row gap-[20px]">
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-hourglass-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               Save Tremendous Time
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -255,12 +264,14 @@
             </p>
           </div>
         </div>
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/check-double-line.png" alt="" />
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-check-double-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               Top-Notch Question Quality
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -269,25 +280,29 @@
             </p>
           </div>
         </div>
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/rupee-circle.png" alt="" />
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-money-rupee-circle-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">Save Money</h2>
+            <h2 class="font-bold text-ee-900 text-[20px]">Save Money</h2>
             <p class="font-medium text-ee-700 text-[16px]">
               Eliminate outsourcing costs with unlimited exam creation.
             </p>
           </div>
         </div>
       </div>
-      <div id="row-2" class="mt-[48px] flex gap-[20px]">
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/loop-right.png" alt="" />
+      <div id="row-2" class="mt-[48px] flex flex-col lg:flex-row gap-[20px]">
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-loop-right-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               Always Unique Questions
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -295,12 +310,14 @@
             </p>
           </div>
         </div>
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/pdf-format.png" alt="" />
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-file-pdf-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               Fully Customizable Format
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -309,12 +326,14 @@
             </p>
           </div>
         </div>
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/infinity-line.png" alt="" />
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-infinity-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               Unlimited Generation (Basic Plan)
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -323,13 +342,15 @@
           </div>
         </div>
       </div>
-      <div id="row-3" class="mt-[48px] flex gap-[20px]">
-        <div class="w-1/3 flex gap-[16px] px-[20px] py-[20px]">
-          <div class="w-[100px]">
-            <img src="./assets/images/shield-check-line.png" alt="" />
+      <div id="row-3" class="mt-[32px] pb-[48px] flex gap-[20px]">
+        <div class="w-full lg:w-1/3 flex gap-[16px] lg:px-[20px] py-[20px]">
+          <div
+            class="bg-ee-primary-2 w-[60px] h-[60px] rounded-full flex justify-center items-center flex-shrink-0"
+          >
+            <i class="ri-shield-check-line text-[30px] text-ee-50"></i>
           </div>
           <div class="flex flex-col gap-[8px]">
-            <h2 class="font-bold text-ee-900 text-[24px]">
+            <h2 class="font-bold text-ee-900 text-[20px]">
               100% CBSE Verified Standard
             </h2>
             <p class="font-medium text-ee-700 text-[16px]">
@@ -341,9 +362,9 @@
     </div>
     <!-- key benifits end  -->
     <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px] py-[100px]">
-      <div class="flex gap-[20px] text-white">
+      <div class="flex flex-col lg:flex-row gap-[20px] text-white">
         <div
-          class="w-2/4 bg-ee-primary-2 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
+          class="w-full lg:w-2/4 bg-ee-primary-2 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
         >
           <h3 class="font-medium text-[24px]">Available Now</h3>
           <p class="font-normal text-[20px]">
@@ -352,10 +373,10 @@
           </p>
         </div>
         <div
-          class="w-3/4 bg-ee-primary-1 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
+          class="w-full lg:w-3/4 bg-ee-primary-1 px-[20px] py-[20px] flex flex-col gap-[16px] rounded-[20px]"
         >
           <h3 class="font-medium text-[24px]">Coming Soon</h3>
-          <div class="flex gap-[16px]">
+          <div class="flex flex-wrap gap-[16px]">
             <p class="font-normal text-[20px]">
               <i class="ri-indeterminate-circle-line mr-[8px]"></i>Science
             </p>
@@ -376,13 +397,13 @@
     <!-- testimonials starts  -->
     <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px]">
       <div>
-        <h2 class="font-extrabold text-ee-900 text-[40px]">
+        <h2 class="font-extrabold text-ee-900 text-[24px] lg:text-[40px]">
           Trusted by Teachers & Tutors
         </h2>
       </div>
-      <div class="mt-[48px] flex gap-[20px]">
+      <div class="mt-[48px] flex flex-col lg:flex-row gap-[20px]">
         <div
-          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+          class="w-full lg:w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
         >
           <p class="font-normal text-ee-800 text-[20px]">
             “ExamEasy has reduced my exam preparation time drastically. The
@@ -393,7 +414,7 @@
           </p>
         </div>
         <div
-          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+          class="w-full lg:w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
         >
           <p class="font-normal text-ee-800 text-[20px]">
             “I used to outsource exam papers for ₹1,200 each. Now I generate
@@ -404,7 +425,7 @@
           </p>
         </div>
         <div
-          class="w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
+          class="w-full lg:w-1/3 border-[1px] border-ee-300 flex flex-col gap-[24px] justify-between px-[20px] py-[20px] rounded-[10px]"
         >
           <p class="font-normal text-ee-800 text-[20px]">
             “The customization options are exactly what teachers need. Very
@@ -435,7 +456,7 @@
 
         <a href="#" target="_blank"
           ><button
-            class="font-title bg-white text-ee-900 px-12 py-2 rounded-[8px] hover:cursor-pointer"
+            class="font-semibold bg-white text-ee-900 px-12 py-2 rounded-[8px] hover:cursor-pointer"
           >
             Get Started
           </button></a
@@ -448,19 +469,20 @@
       class="relative px-[25px] sm:px-[50px] lg:px-[100px] mt-[50px] md:mt-[75px] lg:mt-[100px] pb-[50px]"
     >
       <p
-        class="text-center font-extrabold text-tb-900 text-[60px] sm:text-[90px] md:text-[120px] lg:text-[150px] xl:text-[220px] opacity-[30%]"
+        class="text-center font-extrabold text-tb-900 text-[60px] sm:text-[90px] md:text-[120px] lg:text-[150px] xl:text-[250px] opacity-[30%]"
         aria-hidden="true"
       >
         exameasy
       </p>
       <div
-        class="text-center font-title font-normal flex flex-col lg:flex-row lg:justify-between gap-2 border-t border-b py-[10px]"
+        class="text-center font-medium flex flex-col lg:flex-row lg:justify-between gap-2 border-t border-ee-600 py-[10px]"
       >
-        <div class="flex flex-col gap-2 lg:flex-row lg:justify-center lg:gap-8">
+        <div
+          class="flex flex-col gap-2 lg:flex-row lg:justify-center lg:gap-8 text-ee-800"
+        >
           <a href="./support.html">Support</a>
           <a href="./pricing.html">Pricing</a>
           <a href="./terms-and-conditions.html">Terms and conditions</a>
-          <!-- <a href="">Privacy policy</a> -->
         </div>
         <div><p>2026© ExamEasy</p></div>
       </div>

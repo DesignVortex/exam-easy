@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="font-ee">
+    <div
+      id="main-div"
+      class="bg-bottom bg-[url('assets/images/top-bg.png')] bg-cover"
+    >
+      <!-- <img src="" alt="" /> -->
+      <!-- Navigation  -->
+      <div class="">
+        <nav
+          id="navbar"
+          class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"
+        >
+          <div class="mx-auto px-[25px] sm:px-[50px] lg:px-[100px]">
+            <div class="flex justify-between items-center h-20">
+              <div
+                class="flex-shrink-0 w-[120px] rounded-lg flex items-center justify-center"
+              >
+                <a href="./index.html"
+                  ><img
+                    src="./assets/images/exam-easy-logo.png"
+                    alt="ExamEasy Logo"
+                /></a>
+              </div>
+
+              <div class="hidden md:flex items-center space-x-8">
+                <a
+                  href="./how-it-works.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >How It Works</a
+                >
+                <a
+                  href="./Samples.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Samples</a
+                >
+                <a
+                  href="./pricing.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Pricing</a
+                >
+                <a
+                  href="./support.html"
+                  class="nav-text text-tb-900 hover:text-tb-primary-1 font-medium transition-colors"
+                  >Support</a
+                >
+
+                <a
+                  href="https://app.teambrief.ai/login"
+                  class="bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-2 rounded-[8px] text-sm font-medium transition-colors"
+                >
+                  Log In
+                </a>
+              </div>
+
+              <div class="md:hidden flex items-center">
+                <button
+                  id="mobile-menu-button"
+                  class="inline-flex items-center justify-center p-2 rounded-md nav-text text-tb-900 hover:text-gray-300 focus:outline-none"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <svg
+                    id="icon-open"
+                    class="block h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16m-7 6h7"
+                    />
+                  </svg>
+                  <svg
+                    id="icon-close"
+                    class="hidden h-7 w-7"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-white shadow-xl"
+          >
+            <div class="px-5 pt-5 pb-8 space-y-4">
+              <a
+                href="./how-it-works.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >How It Works</a
+              >
+              <a
+                href="./Samples.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Samples</a
+              >
+              <a
+                href="./pricing.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Pricing</a
+              >
+              <a
+                href="./support.html"
+                class="block text-lg font-medium text-tb-900 hover:text-blue-600"
+                >Support</a
+              >
+
+              <hr class="border-gray-200" />
+
+              <a
+                href="https://app.teambrief.ai/login"
+                class="block w-full text-center bg-ee-primary-1 hover:bg-ee-primary-2 text-white px-5 py-3 rounded-[8px] text-lg font-medium transition-colors"
+                target="_blank"
+              >
+                Log In
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navigation  end-->
+
+      <!-- hero section -->
+      <div
+        class="px-[25px] sm:px-[50px] md:px-[50px] lg:px-[100px] mt-[80px] py-[50px] sm:pb-[100px] lg:pt-[100px] lg:pb-[50px]"
+      >
+        <div class="text-center">
+          <h1
+            class="font-extrabold text-ee-900 text-[32px] md:text-[40px] lg:text-[48px] xl:text-[48px] leading-[135%] pb-[150px]"
+          >
+            Simple Pricing. Unlimited Creation.
+          </h1>
+        </div>
+      </div>
+
+      <!-- hero section end -->
+    </div>
+    <!-- procing table start  -->
+    <div class="px-[25px] sm:px-[50px] lg:px-[100px] py-[50px] lg:py-[100px]">
+      <div class="flex flex-col items-center gap-[16px]">
+        <h2 class="font-extrabold text-ee-900 text-[24px] lg:text-[40px]">
+          Basic Plan
+        </h2>
+        <div class="flex items-center gap-[8px]">
+          <p class="font-bold text-ee-500 text-[16px] line-through">
+            ₹7000/year
+          </p>
+          <p class="font-bold text-ee-800 text-[32px]">₹2500/year</p>
+        </div>
+        <div class="flex">
+          <a href="#" target="_blank"
+            ><button
+              class="font-semibold px-3 py-2 bg-ee-primary-1 text-[16px] rounded-[8px] text-white hover:cursor-pointer"
+            >
+              Start Now
+            </button></a
+          >
+        </div>
+        <div>
+          <ul
+            class="font-normal text-[18px] leading-[24px] lg:text-[20px] lg:leading-[28px] text-ee-800 flex flex-col gap-[12px]"
+          >
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >Unlimited exam generation (with detailed answer key)
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >Unlimited worksheets
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >Unlimited notes (coming soon)
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i>One
+              subject
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i>One
+              Standard
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >CBSE-verified content
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >Fully customizable formats
+            </li>
+            <li>
+              <i class="ri-checkbox-circle-line mr-2 text-ee-primary-2"></i
+              >Always-unique questions
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p
+            class="font-normal text-ee-800 text-[18px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[24px] md:leading-[24px] lg:leading-[28px] xl:leading-[36px]"
+          >
+            <span class="font-bold text-ee-900">Note:</span> All samples are
+            AI-generated, CBSE-aligned, and plagiarism-free.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- pricing table end  -->
+
+    <!-- Footer section -->
+    <div class="relative px-[25px] sm:px-[50px] lg:px-[100px]">
+      <p
+        class="text-center font-extrabold text-tb-900 text-[60px] sm:text-[90px] md:text-[120px] lg:text-[150px] xl:text-[250px] opacity-[30%]"
+        aria-hidden="true"
+      >
+        exameasy
+      </p>
+      <div
+        class="text-center font-medium flex flex-col lg:flex-row lg:justify-between gap-2 border-t border-ee-600 py-[10px]"
+      >
+        <div
+          class="flex flex-col gap-2 lg:flex-row lg:justify-center lg:gap-8 text-ee-800"
+        >
+          <a href="./support.html">Support</a>
+          <a href="./pricing.html">Pricing</a>
+          <a href="./terms-and-conditions.html">Terms and conditions</a>
+        </div>
+        <div><p>2026© ExamEasy</p></div>
+      </div>
+    </div>
+    <!-- Footer section end -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
