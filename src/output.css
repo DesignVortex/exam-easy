@@ -9642,6 +9642,7 @@
     --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
     --color-indigo-600: oklch(51.1% 0.262 276.966);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
@@ -9921,6 +9922,9 @@
   }
   .mt-\[16px\] {
     margin-top: 16px;
+  }
+  .mt-\[20px\] {
+    margin-top: 20px;
   }
   .mt-\[24px\] {
     margin-top: 24px;
@@ -10341,6 +10345,9 @@
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
+  .p-\[20px\] {
+    padding: 20px;
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -10553,6 +10560,9 @@
   }
   .text-blue-700 {
     color: var(--color-blue-700);
+  }
+  .text-blue-800 {
+    color: var(--color-blue-800);
   }
   .text-ee-50 {
     color: var(--color-ee-50);
@@ -10808,6 +10818,11 @@
   .md\:mt-\[40px\] {
     @media (width >= 48rem) {
       margin-top: 40px;
+    }
+  }
+  .md\:mt-\[50px\] {
+    @media (width >= 48rem) {
+      margin-top: 50px;
     }
   }
   .md\:mt-\[75px\] {
@@ -11106,6 +11121,11 @@
   .xl\:text-\[24px\] {
     @media (width >= 80rem) {
       font-size: 24px;
+    }
+  }
+  .xl\:text-\[32px\] {
+    @media (width >= 80rem) {
+      font-size: 32px;
     }
   }
   .xl\:text-\[40px\] {
