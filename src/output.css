@@ -10174,6 +10174,21 @@
   .bg-\[url\(\'assets\/images\/key-benefit-bg\.png\'\)\] {
     background-image: url('assets/images/key-benefit-bg.png');
   }
+  .bg-\[url\(\'assets\/images\/top-bg-how-it-works\.png\'\)\] {
+    background-image: url('assets/images/top-bg-how-it-works.png');
+  }
+  .bg-\[url\(\'assets\/images\/top-bg-pricing\.png\'\)\] {
+    background-image: url('assets/images/top-bg-pricing.png');
+  }
+  .bg-\[url\(\'assets\/images\/top-bg-samples\.png\'\)\] {
+    background-image: url('assets/images/top-bg-samples.png');
+  }
+  .bg-\[url\(\'assets\/images\/top-bg-support\.png\'\)\] {
+    background-image: url('assets/images/top-bg-support.png');
+  }
+  .bg-\[url\(\'assets\/images\/top-bg-tc\.png\'\)\] {
+    background-image: url('assets/images/top-bg-tc.png');
+  }
   .bg-\[url\(\'assets\/images\/top-bg\.png\'\)\] {
     background-image: url('assets/images/top-bg.png');
   }
